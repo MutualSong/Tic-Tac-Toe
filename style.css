@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0057FF;
+}
+
+.line {
+    width: 285px;
+    height: 12px;
+    background-color: #FF0000;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 121px;
+    height: 177px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.player1 {
+    background-color: #1263FF;
+}
+
+.player2 {
+    background-color: #EF5F5F;
+}
+
+.avatar {
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+.card-line {
+    width: 80px;
+    height: 1px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.XO {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.grid {
+    width: 344px;
+    height: 419px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #FF0000, #0080F6);
+    border-radius: 20px;
+    padding: 16.25px;
+}
+
+.cell {
+    width: 93px;
+    height: 103px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell img {
+    width: 60px;
+    height: 60px;
+}
